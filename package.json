@@ -1,0 +1,13 @@
+{
+  "name": "com.hgs.rpg-stats",
+  "version": "1.0.0",
+  "displayName": "HGS RPG Stats",
+  "description": "Modular stat system to RPG and RPG Like games",
+  "unity": "2020.3",
+  "keywords": [],
+  "author": {
+    "name": "Homy Game Studio",
+    "email": "contato@homygamestudio.com"
+  },
+  "dependencies": {}
+}
