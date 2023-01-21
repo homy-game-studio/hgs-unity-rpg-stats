@@ -7,6 +7,7 @@ namespace HGS.RpgStats
   public struct ChangeInfo
   {
     public float delta;
+    public float current;
     public bool IsChanged => delta != 0;
   }
 
@@ -28,7 +29,8 @@ namespace HGS.RpgStats
     {
       onChange?.Invoke(new ChangeInfo
       {
-        delta = delta
+        delta = delta,
+        current = Current
       });
     }
 
